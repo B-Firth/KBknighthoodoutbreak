@@ -1,0 +1,4 @@
+repository "KB_GameStudio@BFirth_Unity1@cloud"
+  path "/"
+    br "/main"
+    co "/main"
