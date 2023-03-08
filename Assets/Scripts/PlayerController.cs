@@ -34,7 +34,7 @@ public class PlayerController : MonoBehaviour
     public float gravityDash;
     public float timeWait;
 
-    public TrailRenderer trailRend;
+    
 
     DamageScript damage;
     
@@ -127,7 +127,6 @@ public class PlayerController : MonoBehaviour
         anim = GetComponent<Animator>();
         touchDirections = GetComponent<CollisionScript>();
         damage = GetComponent<DamageScript>();
-        trailRend = GetComponent<TrailRenderer>();
         ogGravity = rb.gravityScale;
         isDash = true;
         player.GetComponent<PlayerInput>();
@@ -246,7 +245,6 @@ public class PlayerController : MonoBehaviour
     {
         isDash = false;
         isDashing = true;
-        trailRend.emitting = true;
         rb.gravityScale = gravityDash;
 
         if(move.x == 0)
@@ -272,7 +270,7 @@ public class PlayerController : MonoBehaviour
     {
         isDash = true;
         isDashing = false;
-        trailRend.emitting = false;
+       
         rb.gravityScale = ogGravity;
     }
     private bool isGrounded() => touchDirections.isGroundCheck && !touchDirections.isCeilingCheck ||touchDirections.isWallCheck;
