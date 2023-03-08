@@ -12,6 +12,7 @@ public class CharacterEvents
 
     //character healed and healing is valued
     public static UnityAction<GameObject, int> healCharacter;
+    public static UnityAction<GameObject, int> scoreUp;
 
 
 

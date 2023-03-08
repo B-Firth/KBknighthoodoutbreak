@@ -7,6 +7,7 @@ public class UIManager : MonoBehaviour
 {
     public GameObject textDamageprefab;
     public GameObject textHealthprefab;
+    public GameObject textScoreprefab;
     public Canvas UICanvas;
 
     private void Awake()
@@ -19,11 +20,13 @@ public class UIManager : MonoBehaviour
     {
         CharacterEvents.damagedCharacter += CharacterTextDamage;
         CharacterEvents.healCharacter += healingDamage;
+        CharacterEvents.scoreUp += ScoreText;
     }
     private void OnDisable()
     {
         CharacterEvents.damagedCharacter -= CharacterTextDamage;
         CharacterEvents.healCharacter -= healingDamage;
+        CharacterEvents.scoreUp -= ScoreText;
     }
     public void CharacterTextDamage(GameObject character, int damageTaken)
     {
@@ -39,5 +42,13 @@ public class UIManager : MonoBehaviour
         Vector3 positionSpawn = Camera.main.WorldToScreenPoint(character.transform.position);
         TMP_Text tmpHealhText = Instantiate(textHealthprefab, positionSpawn, Quaternion.identity, UICanvas.transform).GetComponent<TMP_Text>();
         tmpHealhText.text = healTaken.ToString();
+    }
+
+    public void ScoreText(GameObject character, int scoreTaken)
+    {
+        //Future Healing mechanics
+        Vector3 positionSpawn = Camera.main.WorldToScreenPoint(character.transform.position);
+        TMP_Text tmpScoreText = Instantiate(textScoreprefab, positionSpawn, Quaternion.identity, UICanvas.transform).GetComponent<TMP_Text>();
+        tmpScoreText.text = scoreTaken.ToString();
     }
 }
