@@ -67,7 +67,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: Damage
+  m_text: Health
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 5190471b633ab764dbf96b76962ed32c, type: 2}
   m_sharedMaterial: {fileID: 2310826846458036490, guid: 5190471b633ab764dbf96b76962ed32c, type: 2}
