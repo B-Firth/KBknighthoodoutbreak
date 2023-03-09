@@ -287,13 +287,15 @@ public class PlayerController : MonoBehaviour
         
     }
     public void OnAttack(InputAction.CallbackContext context)
-    { 
+    {
         if (context.started)
         {
             isAttack = true;
             anim.SetTrigger(StringAnimations.attack);
-         
+           
+
         }
+       
     }
     
         public void FlipPlayer(Vector2 move)
@@ -316,5 +318,7 @@ public class PlayerController : MonoBehaviour
     {
         rb.velocity = new Vector2(knockBack.x, rb.velocity.y + knockBack.y);
     }
+
+  
 
 }
