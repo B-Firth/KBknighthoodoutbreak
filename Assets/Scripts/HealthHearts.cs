@@ -36,7 +36,7 @@ public class HealthHearts : MonoBehaviour
 public enum HeartCondition
 {
     Empty = 0,
-    Half = 3,
-    Full = 5
+    Half = 1,
+    Full = 2
         //can add quarters set i * 2 to   I * 4       0, 4
 }
