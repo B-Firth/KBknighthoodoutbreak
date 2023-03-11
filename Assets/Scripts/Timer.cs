@@ -2,15 +2,18 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using TMPro;
+using UnityEngine.SceneManagement;
 using static Timer;
 
 public class Timer : MonoBehaviour
 {
+    public static Timer instance;
     [Header("Component")]
     public TextMeshProUGUI timertext;
 
     [Header("Timer Settings")]
     public float currentTime;
+    public float recordedTime;
     public bool countdown;
 
     [Header("Limit Settings")]
@@ -21,14 +24,16 @@ public class Timer : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
+       
         
     }
-
+   
+    
     // Update is called once per frame
     void Update()
     {
         currentTime = countdown ? currentTime -= Time.deltaTime : currentTime += Time.deltaTime;
-        if(timLim  && ((countdown && currentTime <= timerLimit) || (!countdown && currentTime >= timerLimit)))
+        if (timLim && ((countdown && currentTime <= timerLimit) || (!countdown && currentTime >= timerLimit)))
         {
             currentTime = timerLimit;
             timertext.color = Color.red;
@@ -36,4 +41,6 @@ public class Timer : MonoBehaviour
         }
         timertext.text = currentTime.ToString("0.00");
     }
+   
+
 }

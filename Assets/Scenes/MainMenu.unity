@@ -220,6 +220,18 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
+      - m_Target: {fileID: 712858813}
+        m_TargetAssemblyTypeName: resetPrefs, Assembly-CSharp
+        m_MethodName: ResetScore
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &138043066
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -987,6 +999,18 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
+      - m_Target: {fileID: 712858813}
+        m_TargetAssemblyTypeName: resetPrefs, Assembly-CSharp
+        m_MethodName: ResetScore
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &385000091
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1324,6 +1348,23 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 620165182}
   m_CullTransparentMesh: 1
+--- !u!1 &712858812 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 722075575687984868, guid: 360d6c11bd94982448989b92ab299452, type: 3}
+  m_PrefabInstance: {fileID: 722075575813183801}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &712858813
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 712858812}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d5fcbb90176109e44bfe0cedd845cde2, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &896378088
 GameObject:
   m_ObjectHideFlags: 0
@@ -1934,6 +1975,18 @@ MonoBehaviour:
       - m_Target: {fileID: 1376347424}
         m_TargetAssemblyTypeName: MainMenuEditor, Assembly-CSharp
         m_MethodName: whenButtonClicked
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 0}
+        m_TargetAssemblyTypeName: resetPrefs, Assembly-CSharp
+        m_MethodName: ResetScore
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
