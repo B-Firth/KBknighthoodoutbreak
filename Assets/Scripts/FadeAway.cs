@@ -4,6 +4,7 @@ using UnityEngine;
 
 public class FadeAway : StateMachineBehaviour
 {
+    EndTrigger trigger;
     public float fadeTimer = 0.5f;
     private float elapsedTime = 0f;
     SpriteRenderer spriteRenderer;
@@ -17,7 +18,7 @@ public class FadeAway : StateMachineBehaviour
         spriteRenderer = anim.GetComponent<SpriteRenderer>();
         startColor = spriteRenderer.color;
         removeObject = anim.gameObject;
-       
+        
     }
 
     // OnStateUpdate is called on each Update frame between OnStateEnter and OnStateExit callbacks
