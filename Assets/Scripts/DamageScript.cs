@@ -113,8 +113,9 @@ public class DamageScript : MonoBehaviour
         if(isAlive && !isBetweenHit)
         {
             HP -= damage;
+            isBetweenHit = true; 
             OnDamage?.Invoke();
-            isBetweenHit = true;
+           
 
             //Notify that the damage hit and handled the knockback
             anim.SetTrigger(StringAnimations.hitTrigger);
