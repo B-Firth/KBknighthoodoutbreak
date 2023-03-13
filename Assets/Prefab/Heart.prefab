@@ -90,5 +90,5 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   fullHP: {fileID: -371014243, guid: d49e0bd0d70076d4ca58d044181e6420, type: 3}
-  halfHP: {fileID: 257224767, guid: d49e0bd0d70076d4ca58d044181e6420, type: 3}
-  emptyHP: {fileID: -47577826, guid: d49e0bd0d70076d4ca58d044181e6420, type: 3}
+  halfHP: {fileID: 723769935, guid: d49e0bd0d70076d4ca58d044181e6420, type: 3}
+  emptyHP: {fileID: -292564855, guid: d49e0bd0d70076d4ca58d044181e6420, type: 3}
