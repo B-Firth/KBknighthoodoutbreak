@@ -19,13 +19,15 @@ public class HealthPickUp : MonoBehaviour
 		DamageScript damage = collision.GetComponent<DamageScript>();//detects the damagescript on character
 
 
-		if (damage && CompareTag("Player"))
+		if (damage )
 		{
 			bool wasHealed = damage.Heal(healing);
-			if (wasHealed)
-				if(pickupAudio)
-				AudioSource.PlayClipAtPoint(pickupAudio.clip, gameObject.transform.position, pickupAudio.volume);
+			if (wasHealed && CompareTag("Player"))
+			{
+				if (pickupAudio)
+					AudioSource.PlayClipAtPoint(pickupAudio.clip, gameObject.transform.position, pickupAudio.volume);
 				Destroy(gameObject);
+			}
 
 
 		}

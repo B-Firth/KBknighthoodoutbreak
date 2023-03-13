@@ -72,7 +72,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   knockBack: {x: 7, y: 4}
-  attackDamage: 1
+  attackDamage: 3
 --- !u!1 &2939851795350278271
 GameObject:
   m_ObjectHideFlags: 0
@@ -296,9 +296,9 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
-  maxHP: 100
+  maxHP: 50
   _isAlive: 1
-  _HP: 100
+  _HP: 50
   isBetweenHit: 0
   hitTimer: 0.25
 --- !u!114 &1773337203

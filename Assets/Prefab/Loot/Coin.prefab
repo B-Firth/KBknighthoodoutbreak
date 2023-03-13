@@ -147,6 +147,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   value: 100
+  scorePickUp:
+    m_PersistentCalls:
+      m_Calls: []
 --- !u!82 &700592777179641113
 AudioSource:
   m_ObjectHideFlags: 0
@@ -165,7 +168,7 @@ AudioSource:
   Mute: 0
   Spatialize: 0
   SpatializePostEffects: 0
-  Priority: 128
+  Priority: 40
   DopplerLevel: 1
   MinDistance: 1
   MaxDistance: 500
