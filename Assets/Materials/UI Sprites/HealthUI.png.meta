@@ -33,7 +33,7 @@ TextureImporter:
   maxTextureSize: 2048
   textureSettings:
     serializedVersion: 2
-    filterMode: 1
+    filterMode: 0
     aniso: 1
     mipBias: 0
     wrapU: 1
@@ -120,12 +120,12 @@ TextureImporter:
       name: HealthUI_0
       rect:
         serializedVersion: 2
-        x: 1
-        y: 67
+        x: 2
+        y: 24
         width: 9
         height: 10
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -141,12 +141,12 @@ TextureImporter:
       name: HealthUI_1
       rect:
         serializedVersion: 2
-        x: 12
-        y: 67
+        x: 15
+        y: 24
         width: 9
         height: 10
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -162,12 +162,12 @@ TextureImporter:
       name: HealthUI_2
       rect:
         serializedVersion: 2
-        x: 23
-        y: 67
+        x: 26
+        y: 24
         width: 9
         height: 10
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -183,19 +183,19 @@ TextureImporter:
       name: HealthUI_3
       rect:
         serializedVersion: 2
-        x: 1
-        y: 56
+        x: 9
+        y: 8
         width: 9
         height: 10
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: b7defbf54cec9f346b8ed8bd7c833e2e
-      internalID: -489253838
+      spriteID: 55aa3fb6b92e82d4289f7382af9396be
+      internalID: -2073231686
       vertices: []
       indices: 
       edges: []
@@ -204,355 +204,19 @@ TextureImporter:
       name: HealthUI_4
       rect:
         serializedVersion: 2
-        x: 12
-        y: 56
+        x: 20
+        y: 8
         width: 9
         height: 10
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 6986aad090fe72c40b75c701e147dcb9
-      internalID: -534141375
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: HealthUI_5
-      rect:
-        serializedVersion: 2
-        x: 23
-        y: 56
-        width: 9
-        height: 10
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 5a815a11a65cabb41a330491961cd627
-      internalID: 257224767
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: HealthUI_6
-      rect:
-        serializedVersion: 2
-        x: 1
-        y: 45
-        width: 9
-        height: 10
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 60f91dbaef072a44c9b6fc915d538e7e
-      internalID: -284207191
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: HealthUI_7
-      rect:
-        serializedVersion: 2
-        x: 12
-        y: 45
-        width: 9
-        height: 10
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: d3607825dd0029e43baa3a34c01666c0
-      internalID: -1301899625
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: HealthUI_8
-      rect:
-        serializedVersion: 2
-        x: 23
-        y: 45
-        width: 9
-        height: 10
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: eb2e46636127b7c489f2b0605eb269ee
-      internalID: 660511149
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: HealthUI_9
-      rect:
-        serializedVersion: 2
-        x: 1
-        y: 34
-        width: 9
-        height: 10
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 92fd25623ef344444b7321c7ed469926
-      internalID: -303202788
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: HealthUI_10
-      rect:
-        serializedVersion: 2
-        x: 12
-        y: 34
-        width: 9
-        height: 10
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 30dc4aa73379d4a4da3906489eb809e7
-      internalID: 1482586236
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: HealthUI_11
-      rect:
-        serializedVersion: 2
-        x: 23
-        y: 34
-        width: 9
-        height: 10
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 18be8d42653608041ba82480a443a047
-      internalID: 611391644
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: HealthUI_12
-      rect:
-        serializedVersion: 2
-        x: 1
-        y: 23
-        width: 9
-        height: 10
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 03de3b1a2a1f28a4fb4fe774eccbf759
-      internalID: 2118357855
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: HealthUI_13
-      rect:
-        serializedVersion: 2
-        x: 12
-        y: 23
-        width: 9
-        height: 10
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: f3eae1d2dbcb85248968725db59da455
-      internalID: 74700813
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: HealthUI_14
-      rect:
-        serializedVersion: 2
-        x: 23
-        y: 23
-        width: 9
-        height: 10
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: e51a3c5d48b85cb4691e64826d61fcec
-      internalID: 1021488266
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: HealthUI_15
-      rect:
-        serializedVersion: 2
-        x: 1
-        y: 12
-        width: 9
-        height: 10
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 46c05234dc5373f4ea4c0f491179c7b3
-      internalID: -1953394754
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: HealthUI_16
-      rect:
-        serializedVersion: 2
-        x: 12
-        y: 12
-        width: 9
-        height: 10
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 19fac1385a5221c4ca952829a319b7aa
-      internalID: -47577826
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: HealthUI_17
-      rect:
-        serializedVersion: 2
-        x: 23
-        y: 12
-        width: 9
-        height: 10
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 0bc4ca59ed35b5f4a82320871148f6cb
-      internalID: -108234435
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: HealthUI_18
-      rect:
-        serializedVersion: 2
-        x: 1
-        y: 1
-        width: 9
-        height: 10
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 66257bc3a3329324aaa48e0eb591c060
-      internalID: 854333581
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: HealthUI_19
-      rect:
-        serializedVersion: 2
-        x: 12
-        y: 1
-        width: 9
-        height: 10
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: dc67ea5e718595a45b47708f955ccebb
-      internalID: 381964782
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: HealthUI_20
-      rect:
-        serializedVersion: 2
-        x: 23
-        y: 1
-        width: 9
-        height: 10
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: e3001d96664a40b46949d1b44a81e727
-      internalID: -930502022
+      spriteID: 42f0da6965f0342499cb529432eb43aa
+      internalID: -1326224252
       vertices: []
       indices: 
       edges: []
@@ -568,27 +232,11 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
-      HealthUI_10: 1482586236
-      HealthUI_20: -930502022
-      HealthUI_8: 660511149
-      HealthUI_4: -534141375
-      HealthUI_6: -284207191
+      HealthUI_4: -1241869177
       HealthUI_0: -371014243
-      HealthUI_15: -1953394754
-      HealthUI_17: -108234435
       HealthUI_1: 723769935
-      HealthUI_3: -489253838
-      HealthUI_9: -303202788
-      HealthUI_14: 1021488266
-      HealthUI_7: -1301899625
-      HealthUI_19: 381964782
-      HealthUI_11: 611391644
-      HealthUI_13: 74700813
-      HealthUI_5: 257224767
-      HealthUI_18: 854333581
+      HealthUI_3: -1739528556
       HealthUI_2: -292564855
-      HealthUI_16: -47577826
-      HealthUI_12: 2118357855
   spritePackingTag: 
   pSDRemoveMatte: 0
   pSDShowRemoveMatteOption: 0

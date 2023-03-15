@@ -128,8 +128,30 @@ public class DamageScript : MonoBehaviour
         //unable to hit
         return false;
     }
-   
 
+    public void healthPulse()
+    {
+        if (HP >= 10)
+        {
+
+            anim.SetTrigger(StringAnimations.pulse1);
+           
+        }
+        else if (HP >= 6)
+        {
+
+            anim.SetTrigger(StringAnimations.pulse2);
+            
+        }
+
+        if (HP >= 2)
+        {
+            anim.SetTrigger(StringAnimations.pulse3);
+            
+        }
+
+
+    }
 
     public bool Heal(int healthHeal)
     {
